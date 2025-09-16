@@ -1,5 +1,4 @@
 
-// Minimal lightbox
 (function(){
   const lb = document.createElement('div');
   lb.className = 'lb';

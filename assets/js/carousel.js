@@ -1,5 +1,4 @@
 
-// Simple auto-advancing carousel used on homepage
 (function(){
   const track = document.getElementById('track');
   if (!track) return;
