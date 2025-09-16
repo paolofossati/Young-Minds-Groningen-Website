@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Young Minds Groningen</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EPS Young Minds Groningen — Homepage</title>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
 </head>
 <body>
-  <h1>Welcome to Young Minds Groningen!</h1>
-  <p>This is the official website of our student association 🎉</p>
+  <header role="banner">
+    <div class="container nav">
+      <div class="brand" aria-label="Site brand">
+        <div class="logo" aria-hidden="true">YM</div>
+        <div>
+          <div class="site-title">EPS Young Minds Groningen</div>
+          <div class="site-sub">Student Association</div>
+        </div>
+      </div>
+      <nav class="menu" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="container" role="main">
+    <section class="hero" aria-label="Event photos carousel">
+      <div class="carousel" id="carousel">
+        <div class="track" id="track">
+          <div class="slide">
+            <img src="assets/img/events/sample-event/placeholder-1.png" alt="Workshop crowd" />
+            <div class="caption">Hands-on workshops and talks</div>
+          </div>
+          <div class="slide">
+            <img src="assets/img/events/sample-event/placeholder-2.png" alt="Students collaborating" />
+            <div class="caption">A community for curious minds</div>
+          </div>
+          <div class="slide">
+            <img src="assets/img/events/sample-event/placeholder-3.png" alt="Tech demonstration" />
+            <div class="caption">Events, outreach, and industry visits</div>
+          </div>
+        </div>
+        <div class="dots" id="dots" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section aria-label="Association description">
+      <h2>Welcome to EPS Young Minds Groningen</h2>
+      <div class="card">
+        <p>
+          EPS Young Minds Groningen is the local section of the <strong>European Physical Society – Young Minds</strong> project.
+          We bring students together to explore physics and related disciplines through seminars, workshops, lab visits, and community outreach.
+          Our goal is to connect students with academia and industry, spark curiosity, and create a welcoming network for everyone who loves science.
+        </p>
+      </div>
+    </section>
+
+    <section class="grid-2" aria-label="Calendar and news">
+      <div>
+        <h2>Upcoming Events</h2>
+        <div class="calendar-frame card">
+          <iframe title="Google Calendar" style="border:0;width:100%;height:100%" src="about:blank" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <div>
+        <h2>News</h2>
+        <div class="news-list">
+          <article class="news-item">
+            <h3><a href="#">Call for Volunteers — Outreach Day</a></h3>
+            <div class="date">Posted 24 Aug 2025</div>
+            <p class="muted">We’re preparing demos for local schools. Interested in helping? Sign up and join the team!</p>
+          </article>
+          <article class="news-item">
+            <h3><a href="#">Lab Tour: Optics & Photonics</a></h3>
+            <div class="date">Posted 16 Aug 2025</div>
+            <p class="muted">Spots are limited. Registration opens Monday at 10:00.</p>
+          </article>
+          <article class="news-item">
+            <h3><a href="#">New Sponsor Partnership</a></h3>
+            <div class="date">Posted 02 Aug 2025</div>
+            <p class="muted">Proud to be supported by our European association partner. Details coming soon.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container foot">
+      <div>
+        <div><strong>EPS Young Minds Groningen</strong></div>
+        <div>Zernikepark 1, 9747 AP Groningen</div>
+        <div><a href="mailto:ymgroningen@gmail.com">ymgroningen@gmail.com</a></div>
+      </div>
+
+      <div class="social" aria-label="Social links">
+        <a class="icon" aria-label="Facebook" href="https://www.facebook.com/youngmindsgroningen" target="_blank" rel="noopener">
+          <img src="assets/icons/social/facebook.svg" alt="Facebook">
+        </a>
+        <a class="icon" aria-label="Instagram" href="https://www.instagram.com/epsymgroningen/" target="_blank" rel="noopener">
+          <img src="assets/icons/social/instagram.svg" alt="Instagram">
+        </a>
+        <a class="icon" aria-label="LinkedIn" href="#" target="_blank" rel="noopener">
+          <img src="assets/icons/social/linkedin.svg" alt="LinkedIn">
+        </a>
+        <a class="icon" aria-label="Email" href="mailto:ymgroningen@gmail.com">
+          <img src="assets/icons/social/mail.svg" alt="Email">
+        </a>
+      </div>
+
+      <div class="legal">
+        <div>Other websites:
+          <a href="#" target="_blank" rel="noopener">EPS Young Minds (Europe)</a> ·
+          <a href="#" target="_blank" rel="noopener">European Physical Society</a>
+        </div>
+        <div>
+          <a href="#" target="_blank" rel="noopener">Privacy Policy</a> ·
+          <a href="#" target="_blank" rel="noopener">Image Credits</a>
+        </div>
+        <div>© <span id="year"></span> EPS Young Minds Groningen</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/carousel.js"></script>
 </body>
 </html>

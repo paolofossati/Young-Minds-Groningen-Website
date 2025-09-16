@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Quantum Careers Night",
+    "date": "12 May 2025",
+    "location": "Groningen",
+    "description": "Panel with researchers and industry guests.",
+    "cover": "assets/img/events/sample-event/placeholder-1.png",
+    "photos": [
+      "assets/img/events/sample-event/placeholder-1.png",
+      "assets/img/events/sample-event/placeholder-2.png",
+      "assets/img/events/sample-event/placeholder-3.png"
+    ]
+  },
+  {
+    "title": "Lab Tour: Optics & Photonics",
+    "date": "28 April 2025",
+    "location": "Zernike Campus",
+    "description": "Guided visit and demos.",
+    "cover": "assets/img/events/sample-event/placeholder-2.png",
+    "photos": [
+      "assets/img/events/sample-event/placeholder-2.png",
+      "assets/img/events/sample-event/placeholder-3.png"
+    ]
+  }
+]
