@@ -11,7 +11,7 @@
       const card = document.createElement('article');
       card.className = 'event-card';
       const cover = document.createElement('img');
-      cover.src = ev.cover || 'assets/img/events/sample-event/placeholder-1.png';
+      cover.src = ev.cover || 'assets/img/events/womeninscience/photo1.png';
       cover.alt = ev.title;
       card.appendChild(cover);
       const body = document.createElement('div');
@@ -26,8 +26,7 @@
         gal.className = 'gallery';
         ev.photos.forEach(src => {
           const img = document.createElement('img');
-          img.src = src;
-          img.alt = ev.title;
+          img.src = src; img.alt = ev.title;
           img.addEventListener('click', () => openLightbox(src));
           gal.appendChild(img);
         });

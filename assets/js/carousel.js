@@ -7,8 +7,7 @@
   let idx = 0;
   slides.forEach((_,i)=>{
     const d=document.createElement('span');
-    d.className='dot'+(i===0?' active':'');
-    d.addEventListener('click', ()=>go(i));
+    d.className='dot'+(i===0?' active':''); d.addEventListener('click', ()=>go(i));
     dots.appendChild(d);
   });
   function go(n){
